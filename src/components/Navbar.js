@@ -23,7 +23,7 @@ const Navbar = () => {
         </div>
         {isOpen && 
           <div className='bg-white shadow-xl  rounded-lg px-4 w-[150px] absolute z-10 top-16 left-0'>
-          <ul className=' list-none  gap-8  font-semibold ' >
+          <ul className='flex  flex-col gap-4 text-xl' >
             <li className='cursor-pointer'>Catalog</li>
             <li className='cursor-pointer'>How it works</li>
             <li className='cursor-pointer'>Pricing</li>
